@@ -2573,7 +2573,7 @@ height: 22px;	width: 132px;	color: #000000;	font-family: "Gotham VU";	font-size:
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;}
 @media (min-width: 1200px){
-    .features2 .news-section{width: 1440px;margin: auto;}
+    /*.features2 .news-section{width: 1440px;margin: auto;}*/
 }
 @media (min-width: 992px) {
     .cid-qyS5nU6OLV .cmc-figure {
