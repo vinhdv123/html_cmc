@@ -2535,7 +2535,7 @@ body,html {
     padding-bottom: 90px;
 }
 .main-content .articles{border-bottom: 1px solid #ECECEC;    margin-bottom: 30px;padding-bottom: 30px;margin-right: 5px}
-.block-sidebar .block-content{background-color: #F6F6F6;	box-shadow: 0 0 26px 0 rgba(0,0,0,0.07);padding: 20px;margin-top: 30px}
+.block-sidebar .block-content{background-color: #F6F6F6;padding: 20px;margin-top: 30px}
 .block-sidebar .group-4 {	height: 81px;	width: 330px;margin-bottom: 20px;}
 .block-sidebar .block-item{display: block}
 .block-sidebar .block-item:last-child h3.title{margin-top: 30px}
