@@ -2641,6 +2641,7 @@ and (max-device-width : 1024px)  {
     }
     .block-sidebar .block-content{width: auto}
     .block-sidebar .group-4{overflow: hidden}
+    .detail img{max-width: 100%}
 }
 @media only screen
 and (min-device-width : 768px)
@@ -2653,6 +2654,7 @@ and (orientation : landscape) {
         margin-bottom: 0px;
     }
     .block-sidebar .block-content{width: auto}
+    .detail img{max-width: 100%}
 }
 @media (max-width: 767px) {
     .articles .item-right .note-body h3{margin-top: 10px}
@@ -2664,6 +2666,7 @@ and (orientation : landscape) {
         margin-bottom: 15px;
     }
     .articles .item-right .note-body .post-date{bottom: -10px}
+    .detail img{max-width: 100%}
 }
 .cid-qyS9vgF5CR {
     padding-bottom: 90px
