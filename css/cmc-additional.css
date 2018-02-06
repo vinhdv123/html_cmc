@@ -2530,9 +2530,10 @@ body,html {
     background-image: url(../images/news-bg.jpg);
 }
 .content-header h2.display-2{text-transform: uppercase}
-.news-section{
-    padding-top: 90px;
-    padding-bottom: 90px;
+.news-section,.search-section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #FFFFFF;
 }
 .main-content .articles{border-bottom: 1px solid #ECECEC;    margin-bottom: 30px;padding-bottom: 30px;margin-right: 5px}
 .block-sidebar .block-content{background-color: #F6F6F6;padding: 20px;margin-top: 30px}
@@ -2561,6 +2562,33 @@ body,html {
 .detail .post-date{	color: #9A9A9A;	font-family: Helvetica;	font-size: 12px;	line-height: 20px;text-transform: uppercase}
 .detail h4{color: #000000;	font-family: "Gotham VU";	font-size: 14px;	font-weight: bold;	line-height: 21px;}
 .detail p{color: #000000;	font-family: "Gotham VU";	font-size: 14px;	line-height: 21px;}
+.block-search{
+    background-color: #F6F6F6;
+    padding: 1.8rem;
+    margin-right: 0;
+    margin-left: 0;
+}
+.block-search input{
+    height: 50px;	width: 579px;	border: 1px solid #CCCFD4;	border-radius: 4px;	background-color: #FFFFFF;
+    margin-top: 6px;
+    min-height: 1rem;
+}
+.block-search .input-group-btn{ margin-left: 15px}
+.block-search button{
+    color: #FFFFFF;	font-family: "Gotham VU";	font-size: 14px;	font-weight: bold;	line-height: 17px;	text-align: center;
+    background-color: #1C9AD6;
+    text-transform: uppercase;
+    margin: 5px 0 0 0;
+    padding: .9rem 3rem;
+}
+.search_result h4.title{margin-top: 40px; margin-bottom: 40px;color: #1B2437;	font-family: "Gotham VU";font-weight: bold;}
+.search_result .list-items{margin-bottom: 40px}
+.search_result .list-items h3{
+    color: #1A0DAB;	font-family: "Gotham VU";	font-size: 14px;	line-height: 21px;
+}
+.search_result .list-items p{
+    color: #7F8FA4;	font-family: "Gotham VU";	font-size: 14px;	line-height: 21px;
+}
 /*
 ======================================Sidebar===============*/
 .block-sidebar h3.title{
@@ -2667,6 +2695,9 @@ and (orientation : landscape) {
     }
     .articles .item-right .note-body .post-date{bottom: -10px}
     .detail img{max-width: 100%}
+    .block-search .input-group{display: block}
+    .block-search .input-group input{width: 100%}
+    .block-search .input-group-btn{margin-left: 0px}
 }
 .cid-qyS9vgF5CR {
     padding-bottom: 90px
