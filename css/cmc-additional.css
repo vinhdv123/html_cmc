@@ -2535,6 +2535,8 @@ body,html {
     padding-bottom: 60px;
     background: #FFFFFF;
 }
+.recruit-header{  padding-top: 60px;
+    padding-bottom: 60px;background-image: url(../images/news-bg.jpg);}
 .main-content .articles{border-bottom: 1px solid #ECECEC;    margin-bottom: 30px;padding-bottom: 30px;margin-right: 5px}
 .block-sidebar .block-content{background-color: #F6F6F6;padding: 20px;margin-top: 30px}
 .block-sidebar .group-4 {	height: 81px;	width: 330px;margin-bottom: 20px;}
@@ -2568,11 +2570,22 @@ body,html {
     margin-right: 0;
     margin-left: 0;
 }
+
+.block-content table thead th{border-bottom: 0px;}
+.block-content table thead th:last-child,
+.block-content table tbody tr td:last-child{border-right: 1px solid #e9ecef;}
+.block-content table thead th:first-child,.block-content table tbody tr td:first-child{border-left: 1px solid #e9ecef;}
+.block-content table tr:last-child{border-bottom: 1px solid #e9ecef;}
 .block-search input{
     height: 50px;	width: 579px;	border: 1px solid #CCCFD4;	border-radius: 4px;	background-color: #FFFFFF;
     margin-top: 6px;
     min-height: 1rem;
 }
+.block-content table tr .badge{margin-left: 15px;}
+.block-content table tr .badge-primary{height: 21px;	width: 40px;	border-radius: 3px;	background-color: #1C9AD6;color: #FFFFFF;	font-family: "Gotham VU";	font-size: 12px;	line-height: 19px;}
+.block-content table tr .badge-warning{height: 21px;	width: 40px;	border-radius: 3px;	background-color: #FAA61A;	color: #FFFFFF;	font-family: "Gotham VU";	font-size: 12px;	line-height: 17px;}
+.block-content table tr .badge-danger{height: 21px;	width: 57px;	border-radius: 3px;	background-color: #D56464;	color: #FFFFFF;	font-family: "Gotham VU";	font-size: 12px;	line-height: 17px;}
+
 .block-search .input-group-btn{ margin-left: 15px}
 .block-search button{
     color: #FFFFFF;	font-family: "Gotham VU";	font-size: 14px;	font-weight: bold;	line-height: 17px;	text-align: center;
@@ -2581,6 +2594,19 @@ body,html {
     margin: 5px 0 0 0;
     padding: .9rem 3rem;
 }
+.recruit-sidebar .card-block{text-align: center;    padding: 15px 40px 15px;}
+.recruit-sidebar .card-block h3{color: #616161;	font-family: "Gotham VU";line-height: 21px;}
+.recruit-sidebar .form-subscribe input[type="text"] {
+    margin-bottom: -1px;
+    border: 1px solid #C7C7C7;
+    border-radius: 2px;
+    background-color: #FAFAFA;
+    padding: 10px 16px;
+    min-height: auto;
+}
+.recruit-sidebar .form-subscribe .btn-subscribe{    width: 100%;
+    margin: 15px 0px;
+    padding: 10px 16px;border-radius: 2px;	background-color: #1C9AD6;color: #FFFFFF;font-size: 16px;}
 .search_result h4.title{margin-top: 40px; margin-bottom: 40px;color: #1B2437;	font-family: "Gotham VU";font-weight: bold;}
 .search_result .list-items{margin-bottom: 40px}
 .search_result .list-items h3{
@@ -2589,6 +2615,20 @@ body,html {
 .search_result .list-items p{
     color: #7F8FA4;	font-family: "Gotham VU";	font-size: 14px;	line-height: 21px;
 }
+.recruit-sidebar .block-content{margin-top: 0px;border: 1px solid #E0E0E0;	background-color: #FFFFFF;}
+.apply .btn-apply{    height: 50px;
+    width: 140px;
+    background-color: #1C9AD6;
+    color: #FFFFFF;
+    font-family: "Gotham VU";
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 0px;padding: 0px}
+.block-content .table .title{font-weight: bold;text-transform: uppercase}
+.block-content .table .fa-calendar{margin-right: 10px}
 /*
 ======================================Sidebar===============*/
 .block-sidebar h3.title{
